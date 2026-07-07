@@ -1,0 +1,53 @@
+Interview Question 1
+
+Q.Why do we import libraries at the beginning?
+Answer:
+Libraries provide pre-built functions. Instead of writing algorithms from scratch, we use tested and optimized implementations, which saves development time and reduces bugs.
+
+Q1. Why is this a regression problem?
+
+Answer:
+Because the target (Price) is a continuous numerical value. Regression predicts continuous outputs such as house price, salary, temperature, or sales.
+
+Interview Questions (10)
+Q1. What is Residual?
+
+Answer: Residual = Actual Value − Predicted Value.
+
+Q2. What does a good residual plot look like?
+
+Answer: Residuals should be randomly scattered around zero with no clear pattern.
+
+Q3. Why is MAE easier to interpret than RMSE?
+
+Answer: MAE represents the average absolute prediction error in the same units as the target, while RMSE penalizes large errors more heavily.
+
+Q4. Which metric penalizes large errors more?
+
+Answer: RMSE.
+
+Q5. Does Random Forest require feature scaling?
+
+Answer: No. Tree-based models are insensitive to feature scaling.
+
+Q6. Can Random Forest overfit?
+
+Answer: Yes. If the trees are too deep or there are too many of them without proper tuning, Random Forest can still overfit, although it is generally less prone to overfitting than a single Decision Tree.
+
+Q7. Which algorithm is based on averaging multiple Decision Trees?
+
+Answer: Random Forest (Bagging).
+
+Q8. What is Feature Importance?
+
+Answer: It measures how much each feature contributes to reducing prediction error across the trees in the forest.
+
+Q9. Difference between Bagging and Boosting?
+
+Answer:
+
+Bagging: Trains models independently in parallel and combines their predictions (e.g., Random Forest).
+Boosting: Trains models sequentially, with each new model focusing on the mistakes of the previous one (e.g., XGBoost, AdaBoost, Gradient Boosting).
+Q10. If Random Forest performs well, why not always use it?
+
+Answer: It is more computationally expensive, less interpretable than Linear Regression, and may not be the best choice when model explainability or inference speed is a priority
