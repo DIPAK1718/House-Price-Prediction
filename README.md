@@ -136,7 +136,6 @@ House-Price-Prediction/
 ## 📌 Results
 
 | Model | R² Score |
-|------|----------|
 | Linear Regression | 0.576 |
 | Random Forest | **0.805** |
 
